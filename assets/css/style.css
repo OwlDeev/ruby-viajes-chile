@@ -1,0 +1,133 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+}
+
+header {
+  background-image: url("../img/carousel1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999; /* Este valor debe ser mayor que el del div de la imagen */
+}
+
+.background-image {
+  background-image: url("tu-imagen.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+nav div a {
+  color: white !important;
+}
+
+.CardMain{
+    background-color: aqua !important;
+}
+
+.CardStyle{
+    border-color: transparent !important;
+    background-color: transparent !important;
+    color: white !important;
+}
+
+main i{
+    transform: rotate(90deg) !important;
+    color: white !important;
+    font-size: 20px;
+}
+
+main p{
+    color: white !important;
+    font-size: 10px;
+}
+main{
+    background-color: black !important;
+}
+
+.titlePage{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 30px;
+    color: white;
+}
+
+.destacados p{
+  color: rgb(0, 0, 0) !important;
+}
+
+section label{
+  color: white !important;
+  text-align: left !important;
+}
+
+.titleContacto{
+  text-align: left !important;
+}
+
+.buttonEnviar{
+  display: flex;
+  align-items: start;
+  align-content: start;
+}
+
+footer{
+  background-color: aqua;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.iconsGroup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.iconsGroup i{
+  font-size: 40px;
+  margin: 10px;
+}
+
+.titleFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.borderTile{
+  width: 80%;
+  height: 0.5px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.titleConBorde{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.marginBottomTitle{
+  height: 60px !important;
+}
